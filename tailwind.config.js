@@ -5,6 +5,7 @@ module.exports = {
     './static/js/**/*.js',
     './static/library/flowbite/**/*.js',
     './static/library/preline/dist/*.js',
+    './dashboard/**/*.py',
   ],
   darkMode: 'class',
   theme: {

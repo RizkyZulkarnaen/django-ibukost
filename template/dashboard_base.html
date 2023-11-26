@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="{% static 'src/output.css' %}">
     {% endcompress %}
     <script src="{% static 'library/preline/dist/preline.js'%}"></script>
-    <title>{{ title }}</title>
+    <title>{% block title %} Dashboard {% endblock title %}
+    </title>
 </head>
 <body class="bg-white dark:bg-gray-900">
     <div>
